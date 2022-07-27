@@ -1,0 +1,14 @@
+:root {
+    --bg-color: #f5f5f5;
+    --font-color: #131320;
+    --heading-color: #01010f;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--font-color);
+}
