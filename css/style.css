@@ -6,6 +6,14 @@
     --transition: all 0.4s ease-in-out;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--heading-color);
+}
+
 body {
     /* background-color: var(--primary-color); */
     font-family: 'Roboto Slab', serif;
@@ -30,7 +38,7 @@ body {
 .btn-general:focus {
     color: var(--secondary-color);
     background-color: #fff;
-    border-color: transparent;
+    border-color: var(--secondary-color);
 }
 
 /* Header Start */
@@ -93,7 +101,6 @@ header {
     font-weight: 600;
     font-size: 45px;
     line-height: 60px;
-    color: var(--heading-color);
 }
 
 .course-info {
@@ -105,7 +112,6 @@ header {
     font-weight: 600;
     font-size: 24px;
     line-height: 38px;
-    color: var(--heading-color);
 }
 
 .course-title p {
@@ -120,3 +126,38 @@ header {
 }
 
 /* Course End */
+
+/* Register CTA */
+#register {
+    margin-bottom: 100px;
+}
+
+.cta-container {
+    max-height: 300px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.cta-text {
+    color: var(--primary-color);
+}
+
+.btn.cta-btn {
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    transition: var(--transition);
+    color: var(--secondary-color);
+}
+
+.btn.cta-btn:hover,
+.btn.cta-btn:focus,
+.btn.cta-btn:active {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+/* Register CTA End*/
