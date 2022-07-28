@@ -6,6 +6,10 @@
     --transition: all 0.4s ease-in-out;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -29,7 +33,7 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
+    color: var(--primary-color);
     transition: var(--transition);
 }
 
@@ -37,13 +41,13 @@ body {
 .btn-general:active,
 .btn-general:focus {
     color: var(--secondary-color);
-    background-color: #fff;
+    background-color: var(--primary-color);
     border-color: var(--secondary-color);
 }
 
 /* Header Start */
 header {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* navbar */
@@ -93,8 +97,14 @@ header {
 
 /* slider banner */
 .banner {
-    /* max-height: 500px; */
-    margin-top: 30px;
+    margin-top: 2rem;
+    min-height: 300px;
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+    min-height: 300px;
 }
 
 .overlay {
@@ -115,14 +125,14 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.banner-caption h2 {
+.carousel-caption h2 {
     font-weight: 600;
     font-size: 60px;
-    line-height: 80px;
-    color: #fff;
+    line-height: 60px;
+    color: var(--primary-color);
 }
 
-.banner-caption p {
+.carousel-caption p {
     color: var(--primary-color);
 }
 
@@ -132,7 +142,7 @@ header {
 
 /* Course */
 #course {
-    margin: 100px 0;
+    margin: 6rem 0;
 }
 
 .section-heading h1 {
@@ -167,7 +177,7 @@ header {
 
 /* About */
 #about {
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 .about-content {
@@ -178,7 +188,7 @@ header {
 
 /* Register CTA */
 #register {
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 .cta-container {
@@ -204,16 +214,16 @@ header {
 .btn.cta-btn:hover,
 .btn.cta-btn:focus,
 .btn.cta-btn:active {
-    color: #fff;
+    color: var(--primary-color);
     background-color: transparent;
-    border-color: #fff;
+    border-color: var(--primary-color);
 }
 
 /* Register CTA End*/
 
 /* Student */
 #student {
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 .student-info {
@@ -231,22 +241,22 @@ header {
 /* Student End*/
 
 /* Feedback */
-#feedback {
+/* #feedback {
     margin-bottom: 100px;
-}
+} */
 
 /* Feedback End */
 
 /* Faq */
 #faq {
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 /* Faq End */
 
 /* Comapny */
 #company {
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 /* Comapny End */
@@ -261,7 +271,7 @@ footer h2 {
     font-size: 40px;
     font-weight: 600;
     line-height: 30px;
-    color: #fff;
+    color: var(--primary-color);
 }
 
 footer h2 span {
@@ -269,13 +279,13 @@ footer h2 span {
 }
 
 footer .address {
-    color: #f5f5f5;
+    color: var(--primary-color);
     padding: 0 6rem;
 }
 
 .page-links a {
     text-decoration: none;
-    color: #f5f5f5;
+    color: var(--primary-color);
 }
 
 footer ul.social-icon li {
@@ -285,12 +295,12 @@ footer ul.social-icon li {
 }
 
 ul.social-icon li a {
-    border: 1px solid #198754;
+    border: 1px solid var(--secondary-color);
     width: 35px;
     height: 35px;
     display: inline-block;
     line-height: 35px;
-    color: #198754;
+    color: var(--secondary-color);
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -308,7 +318,7 @@ ul.social-icon li:nth-child(2) a:hover {
 }
 
 ul.social-icon li:nth-child(3) a:hover {
-    background: #FF0000;
+    background: #0072b1;
     border-color: transparent;
 }
 

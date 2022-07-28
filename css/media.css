@@ -1,0 +1,275 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .navbar-brand .text-logo {
+        font-size: 25px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .banner {
+        margin-top: 1.25rem;
+    }
+
+    .carousel-caption {
+        width: 80%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .btn-general {
+        padding: 8px 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #course {
+        margin: 3rem 0;
+    }
+
+    .section-heading h1 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .course-title {
+        padding: 20px;
+    }
+
+    .course-title h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #about {
+        margin-bottom: 3rem;
+    }
+
+    .about-content h1 {
+        font-size: 20px;
+    }
+
+    #register {
+        margin-bottom: 3rem;
+    }
+
+    .btn.cta-btn {
+        padding: 8px 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #student {
+        margin-bottom: 3rem;
+    }
+
+    .student-name {
+        font-size: 18px;
+    }
+
+    #faq {
+        margin-bottom: 3rem;
+    }
+
+    footer {
+        padding: 3rem 0;
+
+    }
+
+    footer h2 {
+        font-size: 25px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand .text-logo {
+        font-size: 30px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .banner {
+        margin-top: 1.5rem;
+    }
+
+    .carousel-caption {
+        width: 80%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .btn-general {
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #course {
+        margin: 3rem 0;
+    }
+
+    .section-heading h1 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .course-title {
+        padding: 20px;
+    }
+
+    .course-title h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #about {
+        margin-bottom: 3rem;
+    }
+
+    .about-content h1 {
+        font-size: 22px;
+    }
+
+    #register {
+        margin-bottom: 3rem;
+    }
+
+    .btn.cta-btn {
+        padding: 10px 20px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #student {
+        margin-bottom: 3rem;
+    }
+
+    .student-name {
+        font-size: 18px;
+    }
+
+    #faq {
+        margin-bottom: 3rem;
+    }
+
+    footer {
+        padding: 3rem 0;
+
+    }
+
+    footer h2 {
+        font-size: 30px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand .text-logo {
+        font-size: 35px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .banner {
+        margin-top: 2rem;
+    }
+
+    .carousel-caption {
+        width: 75%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .carousel-caption p {
+        line-height: 24px;
+    }
+
+    .btn-general {
+        padding: 11px 18px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #course {
+        margin: 4rem 0;
+    }
+
+    .section-heading h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .course-title {
+        padding: 20px;
+    }
+
+    .course-title h3 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+
+    #about {
+        margin-bottom: 4rem;
+    }
+
+    .about-content h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    #register {
+        margin-bottom: 4rem;
+    }
+
+    .btn.cta-btn {
+        padding: 11px 18px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #student {
+        margin-bottom: 4rem;
+    }
+
+    .student-name {
+        font-size: 20px;
+    }
+
+    #faq {
+        margin-bottom: 4rem;
+    }
+
+    footer {
+        padding: 3rem 0;
+
+    }
+
+    footer h2 {
+        font-size: 40px;
+    }
+}
