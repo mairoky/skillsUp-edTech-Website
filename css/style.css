@@ -165,6 +165,17 @@ header {
 
 /* Course End */
 
+/* About */
+#about {
+    margin-bottom: 100px;
+}
+
+.about-content {
+    background-color: #F4FAFD;
+}
+
+/* About End */
+
 /* Register CTA */
 #register {
     margin-bottom: 100px;
