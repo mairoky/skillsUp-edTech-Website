@@ -204,8 +204,72 @@ header {
 /* Comapny End */
 /* Footer */
 footer {
+    padding: 6rem 0;
     max-height: 400px;
-    /* background-color: #161616; */
+    background-color: #161616;
 }
+
+footer h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #fff;
+}
+
+footer h2 span {
+    color: #198754;
+}
+
+footer .address {
+    color: #f5f5f5;
+    padding: 0 6rem;
+}
+
+.page-links a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+footer ul.social-icon {}
+
+footer ul.social-icon li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 0.3rem;
+}
+
+ul.social-icon li a {
+    border: 1px solid #198754;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    color: #198754;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all .5s linear;
+}
+
+ul.social-icon li:nth-child(1) a:hover {
+    background: #3b5998;
+    border-color: transparent;
+}
+
+ul.social-icon li:nth-child(2) a:hover {
+    background: #00aced;
+    border-color: transparent;
+}
+
+ul.social-icon li:nth-child(3) a:hover {
+    background: #FF0000;
+    border-color: transparent;
+}
+
+ul.social-icon li:nth-child(4) a:hover {
+    background: #FF0000;
+    border-color: transparent;
+}
+
 
 /* Footer End */
