@@ -202,3 +202,10 @@ header {
 }
 
 /* Comapny End */
+/* Footer */
+footer {
+    max-height: 400px;
+    /* background-color: #161616; */
+}
+
+/* Footer End */
