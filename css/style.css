@@ -82,6 +82,7 @@ header {
     font-weight: 600;
     font-size: 60px;
     line-height: 80px;
+    color: #fff;
 }
 
 .banner-caption p {
@@ -99,7 +100,7 @@ header {
 
 .section-heading h1 {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 60px;
 }
 
@@ -161,3 +162,22 @@ header {
 }
 
 /* Register CTA End*/
+
+/* Student */
+#student {
+    margin-bottom: 100px;
+}
+
+.student-info {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.student-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+/* Student End*/
